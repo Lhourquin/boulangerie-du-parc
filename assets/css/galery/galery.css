@@ -1,0 +1,19 @@
+.container-galerie{
+    margin: auto;
+    width: 80%;
+
+}
+#galerie{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#galerie>img{
+    height: 230px;
+    width: 230px;
+    padding: 5px;
+}
+#allProduct, #breadProduct, #pastryProduct{
+    font-size: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,12 @@
+nav>ul{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+li>a{
+    font-weight: 900;
+    font-size: 25px;
+    text-decoration: none;
+}

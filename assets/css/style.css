@@ -1,0 +1,44 @@
+/* googlefont */
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap');
+/* general */
+@import url('./header.css');
+@import url('./nav.css');
+/* home */
+@import url('./home/home-header.css');
+@import url('./home/home-container-bread-pastry.css');
+@import url('./home/home-contact.css');
+/* galery */
+@import url('./galery/galery.css');
+/* bread */
+@import url('./bread/bread.css');
+/* pastry */
+@import url('./pastry/pastry.css');
+/* about */
+@import url('./about/about.css');
+/* contact */
+@import url('./contact/contact.css');
+
+
+body, html{
+    background-color: whitesmoke;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, li, button{
+    font-family: 'Qwitcher Grypen', cursive;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+a:visited{
+    text-decoration: none;
+    color : black;
+}
+address{
+    text-decoration: none;
+    color : none;
+    
+}

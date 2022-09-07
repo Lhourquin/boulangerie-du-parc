@@ -1,0 +1,29 @@
+.container-bread-pastry{
+    display: flex;
+    width: 100%;
+    margin: 100px auto auto auto;
+    height: 50%;
+    justify-content: space-around;
+}
+.bread, .pastry {
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.bread>h2, .pastry>h2{
+    font-size : 28px;
+}
+.bread>img, .pastry>img{
+    max-width: 150px;
+    height: 150px;
+}
+.bread>button>a, .pastry>button>a{
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+}

@@ -1,0 +1,9 @@
+.container-about-img-p{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.container-about-img-p>p{
+     padding: 5px;
+}
